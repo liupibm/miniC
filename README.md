@@ -7,7 +7,7 @@ It consists of the hand-crafted lexer, parser and code generator which produces 
 To try it:
 
 ```
-  python3 compiler.py    # it accepts loop.c as the input, you can switch to other *.c in the folder.
+  python3 compiler.py    # it uses loop.c as the input, you can switch to other *.c in the folder too.
 
   gcc -m32 loop.s -o loop
 
